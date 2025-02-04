@@ -45,6 +45,12 @@ li a:hover {
     cursor: pointer;
 }
 
+/* main */
+.hide {
+
+    display: none;
+}
+
 /*******
 header 
 *******/
