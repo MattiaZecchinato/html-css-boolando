@@ -18,7 +18,7 @@ header,
 main,
 footer {
 
-    padding: 0px 170px;
+    padding: 0px 190px;
 }
 
 header > div,
@@ -45,13 +45,23 @@ header {
 /*******
 main 
 *******/
+main {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .card-box {
 
-    width: 400px;
+    width: 500px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-bottom: 50px;
 }
 
 .img-box img {
@@ -104,6 +114,11 @@ main
     right: 0;
     background-color: #ffffff;
     padding: 20px;
+}
+
+.favorite-ico i {
+    
+    font-size: 20px;
 }
 
 .item-tag {
