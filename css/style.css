@@ -154,3 +154,14 @@ main {
 /*******
 footer 
 *******/
+
+footer {
+
+    background-color: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #ffffff;
+}
