@@ -57,8 +57,26 @@ main
 
 .img-box {
 
-    background-color: azure;
+    /* background-color: azure;
+    height: 100%; */
+
+    position: relative;
+}
+
+.img-box:hover {
+
+    /* z-index: -2; */
+    display: none;
+}
+
+.img-under {
+
+    /* background-color: green;
     height: 100%;
+    width: 100%; */
+
+    position: absolute;
+    z-index: -1;
 }
 
 .item-name-box {
