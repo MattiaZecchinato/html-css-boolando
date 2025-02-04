@@ -113,7 +113,7 @@ main {
 
 .img-box:hover img.lower-img {
 
-    display: block;
+    display: inline-block;
 }
 
 .favorite-ico:hover {
