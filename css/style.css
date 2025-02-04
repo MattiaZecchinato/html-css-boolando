@@ -9,9 +9,26 @@
 common 
 *******/
 
+header,
+main,
+footer {
+
+    padding: 0px 170px;
+}
+
 /*******
 header 
 *******/
+
+header {
+
+    background-color: #ff6900;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
 
 /*******
 main 
