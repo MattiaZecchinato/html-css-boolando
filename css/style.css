@@ -106,14 +106,12 @@ main {
     width: 100%;
 }
 
-.img-box:hover img.upper-img,
-.favorite-ico:hover + .img-box img.upper-img {
+.img-box:hover img.upper-img {
 
     display: none;
 }
 
-.img-box:hover img.lower-img,
-.favorite-ico:hover + .img-box img.lower-img {
+.img-box:hover img.lower-img {
 
     display: block;
 }
