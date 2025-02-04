@@ -48,35 +48,30 @@ main
 .card-box {
 
     width: 400px;
-    height: 600px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
-.img-box {
+.img-box img {
 
-    /* background-color: azure;
-    height: 100%; */
-
-    position: relative;
+    width: 100%;
 }
 
-.img-box:hover {
+.img-box:hover img.upper-img {
 
-    /* z-index: -2; */
     display: none;
 }
 
-.img-under {
+.img-box:hover img.lower-img {
 
-    /* background-color: green;
-    height: 100%;
-    width: 100%; */
+    display: block;
+}
 
-    position: absolute;
-    z-index: -1;
+.lower-img {
+
+    display: none;
 }
 
 .item-name-box {
