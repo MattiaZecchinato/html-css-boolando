@@ -93,7 +93,7 @@ main {
 
 .card-box {
 
-    width: 500px;
+    width: calc((100% - 20px) / 3);
     position: relative;
     display: flex;
     flex-direction: column;
