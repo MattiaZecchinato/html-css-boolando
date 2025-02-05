@@ -99,11 +99,12 @@ main {
     flex-direction: column;
     justify-content: flex-end;
     margin-bottom: 50px;
+    flex-shrink: 0;
 }
 
 .img-box img {
 
-    width: 100%;
+    max-width: 100%;
 }
 
 .img-box:hover img.upper-img {
